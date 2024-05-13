@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #ced1d4;
+}
+/* .space{
+  height: 150px;
+  text-align: center;
+  font-size: 30px;
+  position:relative;
+  top: 90px;
+} */
+
+.menu, a{
+  display:flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 500px; 
+  justify-content: space-around; 
+}
+
+button, a{
+  border-style: none;
+  height: 75px;
+  background-color: #b1102b;
+  color: white;
+  border-radius: 50%;
+  width:300px;
+  gap: 20px;
+}
+button:hover, a:hover{
+  background-color: white;
+  color:#b1102b;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color:  #b1102b;
+}
+

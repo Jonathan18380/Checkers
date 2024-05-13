@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h2{
+            text-align: Right;
+        }
+        p{
+            text-align: center;
+            font-size: 30px;
+            color: lightgreen;
+        }
+        body {
+            background-image: url("white.jpg");
+        }
+        #page li{
+            font-size: 25px;
+        }
+        .form-container {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+
+</head>
+
+
+<body onload="startUp">
+    <h2> Welcome </h2>
+    <h2> Would you like to play a Game?</h2>
+
+    <h2>Clicking on the following page will lead to the following:</h2>
+    <p> Game Page will take you to the checkers game.</p>
+    <p> Leader Board will take you to the list of past Champions.</p>
+    <p> Help Page will help you understand the rule of the game.</p>
+    <p> Contact Page tell you who made this fantastic super awsome amazaing Checkers Game.</p>
+    
+    <ul id="page">
+        <li><a href="game.html" title="Load to Game Page">Game Page</a></li>
+    </ul>
+
+    <ul id="page">
+        <li><a href="leader_board.html" title="Display the best Player">Leader Board</a></li>
+    </ul>
+
+    <ul id="page">
+        <li><a href="Help.html" title="Explain on how to play Checkers">Help Page</a></li>
+    </ul>
+
+    <ul id="page">
+        <li><a href="Contact.html" title="Authors of this Checkers Game">Contact Page</a></li>
+    </ul>
+
+    <div class="form-container">
+        <h3>Login</h3>
+        <form action="login.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+
+    <div class="form-container">
+        <h3>Sign Up</h3>
+        <form action="register_mysql.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>

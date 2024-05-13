@@ -1,0 +1,14 @@
+
+
+
+            Jonathan                                                                    Elvis
+
+Week 1:     Created index.html                                              Focused on backend
+Week 2:     Worked on game.js/game.css/game.html                            Focused on creating leaderboard
+Week 3:     Finished up game.html / Worked on game.js / game.css/           attempted to connect with Jonathan's frontend (What we had)
+leaderboard.html            
+Week 4:     Week 4 focuses on tackling dom board and logic / css            helped created help.html. Began working on register function
+Week 5:     Focused on tackling the movement logic and piece design         Finished up on the register function
+Week 6:     Logic was breaking and had to start new js file with clean      Focusing on login page mixed with leaderboard logic
+            logic
+Week 7:     Finished up attack logic/Color wheel/Timers/Piece count         Finished up leaderboard logic and login page.

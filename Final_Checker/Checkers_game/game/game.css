@@ -1,0 +1,94 @@
+.board {
+  border: 2px solid black;  /*Outline of our table (board)*/
+  border-collapse: collapse; /*collapses the gap between the squares (spots)*/
+  color: black;              
+  height: 500px;            /*Creates a stable 8x8 table*/
+  width: 500px;             
+  margin-left: auto;        /*both left and right will help keep table in center*/
+  margin-right: auto;
+}
+
+td {
+  border: 1px solid black;
+  width: 70px;
+  height: 70px; 
+  
+}
+/* Centers the images (checker pieces) into the center */
+td img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Can't use the images in css since we need to delete them in javascript afterwards to change the color of the board. */
+/* tr:nth-child(even) td:nth-child(even),tr:nth-child(odd) td:nth-child(odd) {
+  background-image: url(white.jpg);
+}
+
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+  background-image: url(black.jpg);
+} */
+
+#space{
+  height: 100px;
+}
+
+.piece {
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%;
+}
+
+.redKing, .blackKing {
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%;
+}
+
+.highlight-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue */
+  pointer-events: auto; /* Allow clicks to pass through the overlay to the cell beneath */
+}
+.restart, .timer, .boardColor, .colorSelect{
+display: block;
+margin: 0 auto;
+text-align: center;
+margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+.submitbutton{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.prompt, .info{
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.highlight {
+  background-color: #00f; /*Set the background color to blue or any other color you prefer*/
+  /* z-index: 9999; */
+  background-image: none !important;
+  /* size: 12px; */
+}
+.boardColor-container {
+  position: relative;
+  z-index: 9999; /* Set a higher z-index to ensure it's on top */
+  background-image: none !important;
+}
+
+.boardColor-input {
+  background-color: #00f; /* Set the background color to blue or any other color you prefer */
+  background-image: none !important;
+}
+

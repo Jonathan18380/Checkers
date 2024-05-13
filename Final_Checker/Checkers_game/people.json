@@ -1,0 +1,58 @@
+[
+    {
+      "username": "Horne",
+      "win": 81,
+      "lose": 77,
+      "draw": 6,
+      "total_games": 252,
+      "total_time": 880
+    },
+    {
+      "username": "Jackson",
+      "win": 168,
+      "lose": 71,
+      "draw": 8,
+      "total_games": 377,
+      "total_time": 1015
+    },
+    {
+      "username": "Cohen",
+      "win": 86,
+      "lose": 118,
+      "draw": 8,
+      "total_games": 290,
+      "total_time": 478
+    },
+    {
+      "username": "Macdonald",
+      "win": 30,
+      "lose": 35,
+      "draw": 3,
+      "total_games": 366,
+      "total_time": 2554
+    },
+    {
+      "username": "Stanton",
+      "win": 300,
+      "lose": 123,
+      "draw": 2,
+      "total_games": 273,
+      "total_time": 1492
+    },
+    {
+      "username": "Bauer",
+      "win": 20,
+      "lose": 193,
+      "draw": 5,
+      "total_games": 223,
+      "total_time": 2526
+    },
+    {
+      "username": "Holder",
+      "win": 200,
+      "lose": 54,
+      "draw": 7,
+      "total_games": 272,
+      "total_time": 1433
+    }
+  ]

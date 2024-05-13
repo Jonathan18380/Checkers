@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: rgb(19, 40, 76);
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(255, 255, 255);
+            background-color: rgb(176, 16, 43);
+            font-size: 75px;
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+            background-color: rgb(19, 40, 76);
+            font-size: 75px;
+            font-weight: 900;
+            text-align: center;
+        }
+        table,th, td {
+            border: 2px solid black;
+            background-color: rgb(255,255,255);
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body onload="startup()">
+    <table>
+    <h2> Welcome to the Leader board</h2>
+
+    <button onclick="sortByWins()">Sort by Wins</button>
+    <button onclick="sortByTotalGames()">Sort by Total Games</button>
+    <button onclick="sortByTotalTime()">Sort by Total Time</button>
+    <div id="sortedList"></div>
+
+    </table>
+
+<a href="index.html"><button>Home</button></a>
+
+    <script src="players.js"></script>
+</body>
+
+</html>
